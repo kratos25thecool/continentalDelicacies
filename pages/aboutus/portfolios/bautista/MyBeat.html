@@ -1,0 +1,628 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>My Beat</title>
+    <link rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<style>
+    *{
+    margin:0;
+    padding:0;
+    font-family:'Montserrat', sans-serif;
+
+}
+.header{
+    background:linear-gradient(rgba(69, 41, 81, 0.8),rgba(69, 41, 81,0.7)),url(https://www.wallpaperbetter.com/wallpaper/434/595/822/colorful-equalizer-black-background-1080P-wallpaper-middle-size.jpg);
+    height:90px;
+    width:100%;
+}
+
+.header h2{
+    float:left;
+    padding:2px 0px 2px 40px;
+    line-height:90px;
+    color:white;
+    font-weight: 600;
+    font-size: 30px;
+    font-family:'Gotham';
+
+}
+
+.nav {
+    float:right;
+    margin-right:1em;
+    margin-top:1em;
+    font-size:1.5em;
+
+}
+
+.nav a {
+    margin:1em;
+    border: 1px solid white;
+    text-decoration:none;
+    padding:10px 10px 10px 10px;
+    color:#ddd;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+font{
+    color:#00fecb;
+}
+
+.page1,.page2,.page3,.page4{
+    width:180px;
+    height:50px;
+}
+
+.page1{
+    position:absolute;
+    bottom:685px;
+    right:500px;
+    text-align: center;
+}
+
+.page2{
+    position:absolute;
+    bottom:670px;
+    right:350px;
+    text-align: center;
+}
+
+.page3{
+    position:absolute;
+    bottom:670px;
+    right:205px;
+    text-align: center;
+}
+.page4{
+    position:absolute;
+    bottom:670px;
+    right:30px;
+    text-align: center;
+}
+
+.page1 a {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    font-family:'Lato';
+
+}
+
+
+.page2 a {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    font-family:'Lato';
+
+}
+.nav a:hover {
+    background-color: #fefefe;
+    background-image: linear-gradient(315deg, #fefefe 0%, #00a4e4 74%);
+    color: #333;
+}
+
+.page3 a {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    font-family:'Lato';
+
+}
+.page3 a:hover {
+    background-color: #db7f8e;
+    background-image: linear-gradient(315deg, #db7f8e 0%, #7b0d1e 74%);
+    color: #333;
+}
+
+.page4 a {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff;
+    font-family:'Lato';
+
+}
+.page4 a:hover {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    color: #333;
+}
+
+.box a{
+    position:absolute;
+    bottom:30px;
+    left:20px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.box2 a{
+    position:absolute;
+    bottom:30px;
+    left:20px;
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+.box3 a{
+    position:absolute;
+    bottom:30px;
+    left:20px;
+    font-size: 40px;
+    color: #fff;
+    
+}
+.box{
+    background:linear-gradient(rgba(0,221,229,0.8),rgba(0,221,229,0.7)),url(https://img.freepik.com/free-photo/silhouettes-concert-crowd-front-bright-stage-lights-pool-party_43569-176.jpg?size=626&ext=jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+.mini-box1,.mini-box2,.mini-box3,.mini-box4,.mini-box5,.mini-box6,.mini-box7,.mini-box8,.mini-box9{
+    width:350px;
+    height:250px;
+}
+
+.mini-box1{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    margin-left:100px;
+    margin-top:170px;
+
+}
+
+.mini-box2{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:590px;
+}
+
+.mini-box3{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:1080px;
+}
+.mini-box4{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:100px;
+}
+
+.mini-box5{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:590px;
+}
+
+.mini-box6{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:1080px;
+}
+
+.mini-box7{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:100px;
+}
+
+.mini-box8{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:590px;
+}
+
+.mini-box9{
+    background-color:rgba(255, 255, 255, .4);
+    position:absolute;
+    bottom:150px;
+    left:1080px;
+}
+
+.tagline{
+    font-size:40px;
+    text-align:center;
+}
+
+.box2{
+    background:linear-gradient(rgba(201,58,94,0.7),rgba(201,58,94,0.7)),url(https://c0.wallpaperflare.com/preview/999/347/611/guitar-music-tool-guitarist.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+
+.tagline2{
+    font-size:40px;
+    text-align:center;
+    padding-top:100px;
+
+}
+
+.box3{
+    background:linear-gradient(rgba(155,60,196,0.8),rgba(155,60,196,0.7)),url(https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+
+.tagline3{
+    font-size:40px;
+    text-align:center;
+    padding-top:100px;
+}
+
+h1{
+    font-size:5rem;
+    color:#fff;
+    text-align:center;
+    
+}
+
+.box p{
+    text-align:center;
+    color:#ddd;
+    position:absolute;
+    bottom:450px;
+    font-size:20px;
+    right:50px;
+    
+}
+
+.box2 p{
+    text-align:center;
+    color:#ddd;
+    position:absolute;
+    bottom:450px;
+    font-size:20px;
+    right:100px;
+    
+}
+.box3 p{
+    text-align:center;
+    color:#ddd;
+    position:absolute;
+    bottom:450px;
+    font-size:20px;
+    right:100px;
+    
+}
+.mini-box3 p{
+    text-align:center;
+    color:#ddd;
+    position:absolute;
+    bottom:450px;
+    font-size:20px;
+    right:100px;
+    
+}
+
+.mini-box1 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box1 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box2 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+
+}
+
+.mini-box2 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box3 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box3 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box4 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box4 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box5 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box5 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box6 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box6 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box7 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box7 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box8 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box8 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-box9 h1{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+    top:15%;
+    left:7%;
+    position:absolute;
+}
+
+.mini-box9 audio{
+    top:40%;
+    left:8%;
+    position:absolute;
+    border: 5px inset #a9d6e5;
+    border-radius: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+</style>
+
+       
+</head>
+<body id="top">
+
+<div class="wholepage">
+<div class="header">
+    <div class="nav">
+    <a href="landingpage.html">Landing Page</a>
+    <a href="#Indie" style="padding:10px 30px 10px 30px">Indie</a>
+    <a href="#Acoustic">Acoustic Pop</a>
+    <a href="#Rock">Rock Ballad</a>
+    </div>  
+    <h2><u>My<font>BEAT</font></u></h2>
+</div>
+<div class="box" id="Indie">
+
+    <div class ="tagline">
+        <br><br>
+        <center>
+        <h1><u>Indie</u></h1>
+        <p style="margin-bottom:80px">
+            One of my favorite music genre. Indie Music is usually includes a simple but origanal guitar riff, another guitar riff layered to complement it, bass doing the same,simple drum beat either a keyboard or violin or something to bring out the underlying melody, and soft vocals, usually well harmonized.
+        </p>
+        </center>
+    </div>
+    
+    
+    <center>
+        <div class="mini-box1">
+            <h1>"Dulo ng Hangganan" by <u>IV OF SPADES</u></h1>
+            <audio src="audio/IV OF SPADE-DULO NG HANGGANAN.mp3" controls>
+            
+        </audio>
+        </div>
+        
+        <div class="mini-box2">
+            <h1>"The Less I know the better" by <u>Tame Impala</h1>
+        <audio src="audio/TAME IMPALA - The less I know the Better.mp3" controls>  
+        </audio>
+        </div>
+        
+        <div class="mini-box3">
+            <h1>"Hello, Anxiety" by <u>Phum Viphurit</u></h1>
+            <audio src="audio/Phum Viphurit - Hello, Anxiety.mp3" controls>  
+        </audio>
+        </div>
+    </center>
+</u>
+<a href="#top">Go Top</a>
+</div>
+
+
+<div class="box2" id="Acoustic">
+
+    <div class ="tagline2">
+        <h1><u>Acoustic Pop</u></h1>
+        <center>
+        <p>
+            One of my favorite music genre. Acoustic pop combines the catchy,<br> memorable melodies of pop music with instruments that create sounds naturally, without the use of amplifiers or electric magnification. 
+        </p>
+        </center>
+    </div>
+    <div class="mini-box4">
+    <h1>"Best Part" by <u>Daniel Cesar</u></h1>
+    <audio src="audio/Best Part - Daniel Cesar.mp3" controls>   
+    </audio>
+    </div>
+
+    <div class="mini-box5">
+    <h1>"Kathang Isip" by <u>Ben & Ben</u></h1>
+    <audio src="audio/Kathang Isip-Ben & Ben.mp3" controls>  
+    </div>
+
+    <div class="mini-box6">
+    <h1>"Wonderwall" by <u>Oasis</u></h1>
+    <audio src="audio/Wonderwall - OASIS.mp3" controls>
+    </div>
+<a href="#top">Go Top</a>
+</div> 
+
+
+
+<div class="box3" id="Rock">
+    <div class ="tagline3">
+        <h1><u>Rock Ballad</u></h1>
+        <center>
+         <p>
+            One of my favorite music genre. Rock ballad is a rock composition which can often be lengthy,<br> but has emotional subject matter at its core. They're often love songs, but can often refer to any song which revolves around an emotional topic.
+        </p>
+        </center>
+    </div>
+    <div class="mini-box7">
+    <h1>"Bohemian Rhapsody" by <u>Queen</u></h1>
+    <audio src="audio/Queen - Bohemian Rhapsody.mp3" controls>   
+    </audio>
+    </div>
+
+    <div class="mini-box8">
+    <h1>"Hotel California" by <u>Eagles</u></h1>
+    <audio src="audio/Eagles - Hotel California.mp3" controls>   
+    </audio>
+    </div>
+
+    <div class="mini-box9">
+    <h1>"Smells Like Teen Spirit" by <u>Nirvana</u></h1>
+    <audio src="audio/Nirvana - Smells Like Teen Spirit.mp3" controls>   
+    </audio>
+    </div>
+<a href="#top">Go Top</a>
+</div>
+</div>
+</body>
+</html>

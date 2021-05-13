@@ -1,0 +1,179 @@
+body {
+	background-color: #2E4057;
+}
+
+#cardTitle {
+	background-color: #083D77;
+}
+
+#card1 {
+		background-color: #11B5E4;
+}
+#card2 {
+		background-color: #D3FFE9;
+}
+#card3 {
+		background-color: #D4F2D2;
+}
+#card4 {
+		background-color: #D1A7DD;
+}
+#card5 {
+		background-color: #8A49D4;
+}
+#cardEnd {
+		background-color: #3B3149;
+}
+
+h1 {
+	font-family: Impact;
+	font-size: 6em;
+	
+	text-align: center;
+	text-transform: uppercase;
+	
+	color: white;
+	text-shadow: 4px 6px blue;
+}
+
+#name {
+	font-family: "Arial Black";
+	font-size: 4em;
+	
+	text-align: center;
+	text-indent: 0%;
+	text-transform: capitalize;
+	text-decoration: overline;
+
+	color: white;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-size: 2em;
+	color: #2E4057;
+		
+	text-align: left;
+	letter-spacing: 1px;
+		
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 1.5em;
+	color: black;
+	
+	text-align: justify;
+	text-indent: 3em;
+	
+	letter-spacing: 1px;
+	word-spacing: .3em;
+	line-height: 1.5em;
+}
+
+.content {
+	width: 80%;
+}
+
+li {
+	font-family: Tahoma;
+	font-size: 1.5em;
+	color: black;
+	
+	text-align: left;
+	
+	letter-spacing: 1px;
+	word-spacing: .3em;
+	line-height: 1.5em;
+}
+
+#credits {
+		font-family: monospace;
+		font-size: 1.2em;
+		color: white;
+	
+		align: left;
+		width: 30%;
+}
+
+#langBox {
+	width: 50%;
+}
+
+#langs{
+	align: left;
+}
+
+#lang1 {
+
+	width: 95%;
+	background-color: lime;
+	text-align: left;
+	
+	color: black;
+}
+
+#lang2 {
+	width: 80%;
+	background-color: orange;
+	text-align: left;
+	
+	color: white;
+}
+
+#lang3 {
+	width: 70%;
+	background-color: red;
+	text-align: left;
+	
+	color: white;
+}
+
+#lang4 {
+	width: 80%;
+	background-color: yellow;
+	text-align: left;
+	
+	color: black;
+}
+
+#lang5 {
+	width: 75%;
+	background-color: orange;
+	text-align: left;
+	
+	color: white;
+}
+
+#lang6 {
+	width: 55%;
+	background-color: blue;
+	text-align: left;
+	
+	color: white;
+}
+
+#lang7 {
+	width: 50%;
+	background-color: cyan;
+	text-align: left;
+	
+	color: black;
+}
+
+#lang8 {
+	width: 35%;
+	background-color: purple;
+	text-align: left;
+	
+	color: white;
+}
+
+img {
+	margin: 2%;
+	border: 5px solid black;
+	position: absolute;
+	float: left;
+}

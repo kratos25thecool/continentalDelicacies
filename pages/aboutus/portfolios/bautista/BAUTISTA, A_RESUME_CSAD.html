@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/BAUTISTA_resumeDesign_csad.css">
+ 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+ <style>
+ 	* {
+	margin:0;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+
+
+hr {
+	margin: auto;
+	width: 90%;
+	color: grey;
+}
+
+.personal-info {
+	/*padding: 50px 0px 0px 0px;*/
+	margin: 50px auto;
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+	
+
+}
+
+.section-2 {
+	background-color: #ECE9E1;
+	border: 1px solid grey;
+	box-shadow: 5px 5px 10px #3D3D3D;
+	margin-right: 15px;
+	width:70%;   
+
+}
+
+
+.section-1 {
+	background-color: #ECE9E1;
+	border-style:inset;
+	box-shadow: 10px -20px #3D3D3D;
+	flex: 2;
+	margin-right:30px;
+	width: 90%;
+}
+
+
+.personal-img {
+	width: 220px;
+  	height: 250px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	background-color:#ECE9E1; 
+  	position:relative; 
+  	top:7px; 
+  }
+
+.person-name {
+	color: #3D3D3D;
+	font-size: 25px;
+	margin: 5px;
+	text-align:center;
+	font-family:Verdana; 
+}
+
+.personal-details{
+	font-size: 17px;
+	padding: 25px;
+	list-style: none;
+	color:#3D3D3D;
+	font-family:Georgia;
+	line-height:2;
+	letter-spacing:2px;
+}
+
+.details-list{
+	font-size: 1.2vw;
+	padding: 25px;
+	font-family:Georgia;
+	list-style: none;
+	color:#3D3D3D;
+	letter-spacing:2px;
+}
+
+.interest-details{
+	font-size: 17px;
+	padding: 25px;
+	list-style: none;
+	color:#3D3D3D;
+	font-family:Georgia;
+	letter-spacing:2px;
+    line-height:2;
+}
+
+
+.details-list {
+	padding-top: 0px;
+}
+
+.personal-details li{
+	margin: 15px 0px;
+	/*letter-spacing: .5px;*/
+}
+
+.personal-details li i {
+	margin-right: 10px;
+
+}
+
+.details-list li {
+	margin: 15px 0px;
+}
+
+.interest-details li {
+	margin: 15px 0px;
+}
+
+.interest-details {
+	padding-top: 0px;
+}
+
+.head-sec {
+	color: #3D3D3D;
+	padding: 30px;
+	margin: 0px;
+	font-size: 1.6vw;
+}
+
+.head-sec i{
+	color: #3D3D3D;
+}
+
+.progress-back {
+	border: 1px solid black;
+	border-radius: 15px;
+	height: 1.5em;
+	margin-top: 15px;
+	text-align: justify;
+}
+
+.progress-text {
+	color: #ECE9E1;
+	text-align: center;
+}
+
+
+.progress {
+	height: 100%;
+	border-radius: 15px;
+	background-color: #FC4445;
+}
+
+.p-100 {width: 100%;}
+.p-95 {width: 95%;}
+.p-50 {width: 50%;}
+.p-70 {width: 70%;}
+.p-75 {width: 75%;}
+.p-30 {width: 30%;}
+
+
+.data-details {
+	width: 90%;
+	margin: auto;
+	padding: 40px 0px;
+}
+
+.data-details h3{
+	font-size: 1.2vw;
+	color: #5c5c5c;
+	margin: 10px 0px;
+}
+
+.data-details > span{
+	color: #3D3D3D;
+	margin: 15px 0px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.green-span {
+	background-color:#3D3D3D;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: normal;
+	color: white;
+}
+
+.fa-calendar-alt {
+	margin: 0px 10px;
+}
+
+.data-details p {
+	color: #5c5c5c;
+	margin: 10px 0px;
+	letter-spacing: .5px;
+	line-height: 2;
+}
+
+.project-details li{
+	color: #5c5c5c;
+	margin: 20px 0px 0px 40px;
+	letter-spacing: .5px;
+	line-height: 1.6;
+}
+
+.social-media{
+	margin-top: 80px; 
+	width: 90%;
+	height: 200px;
+	background-color: #3D3D3D;
+	text-align: center;
+	padding: 40px 0px;
+	color: white;
+	font-weight: bold;
+	line-height: 2;
+	position:relative;
+	left:18px;
+	font-size: 15px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.2vw;
+}
+</style>
+
+</head>
+<body>
+
+	<div class="personal-info">
+		<div class="section-1">
+			<img class="personal-img" src="images/mypic.jpg"style="border-style: outset;">
+
+
+			<h2 class="person-name"> ALVINO BAUTISTA</h2>
+			<hr>
+			<h2 class="head-sec"><i class="far fa-edit"></i> Personal Details </h2>
+			<ul class="personal-details">
+				<li> <i class="fas fa-user-tie"></i> Software Engineer</li>
+				<li> <i class="fas fa-map-marker-alt"></i>687 Tapatan rd, Marungko, Angat, Bulacan</li>
+				<li> <i class="fas fa-address-book"></i> alvinobautista73@gmail.com</li>
+				<li> <i class="fas fa-phone"></i>+63 965 097 8588</li>
+			</ul>
+
+			<hr>
+			<h2 class="head-sec"><i class="fas fa-user-cog"></i> Technical Skills </h2>
+			<ul class="details-list">
+				<li>
+					Python/Java/C++
+					<div class="progress-back">
+						<div class="progress p-70"><h4 class="progress-text">70%</h4> </div>
+					</div>
+				</li>
+				<li>
+					Data structure
+					<div class="progress-back">
+						<div class="progress p-75"><h4 class="progress-text">75%</h4> </div>
+					</div>
+				</li>
+				<li>
+					Project Management
+					<div class="progress-back">
+						<div class="progress p-50"><h4 class="progress-text">50%</h4> </div>
+					</div>
+				</li>
+				<li>
+					Database Development
+					<div class="progress-back">
+						<div class="progress p-75"><h4 class="progress-text">75%</h4> </div>
+					</div>
+				</li>
+				<li>
+					Software Development
+					<div class="progress-back">
+						<div class="progress p-75"><h4 class="progress-text">75%</h4> </div>
+					</div>
+				</li>
+			</ul>
+
+			<hr>
+
+			<h2 class="head-sec"><i class="fas fa-language"></i> Languanges </h2>
+			<ul class="details-list">
+				<li>
+					Filipino
+					<div class="progress-back">
+						<div class="progress p-100"><h4 class="progress-text">100%</h4> </div>
+					</div>
+				</li>
+				<li>
+					English
+					<div class="progress-back">
+						<div class="progress p-70"><h4 class="progress-text">70%</h4> </div>
+					</div>
+				</li>
+			<hr>
+			<h2 class="head-sec"><i class="fa fa-thumbs-up"></i> Interest </h2>
+			<ul class="interest-details">
+				<li> <i class="fas fa-microchip"></i> Artificial Intelligence</li>
+				<li> <i class="fas fa-dice-d6"></i> Video Games</li>
+				<li> <i class="fas fa-robot"></i> Robotics</li>
+				<li> <i class="fas fa-video"></i> Video Editing</li>
+				<hr>
+			</ul>
+			<p class="social-media">Follow me on social media<br>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.facebook.com/BautistaAlvino/" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-github"></i></a>
+			</p>
+		</div>
+		<div class="section-2">
+				<h2 class="head-sec"><i class="	fas fa-user-alt"></i> About me </h2>
+				<div class="data-details">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A motivated computer science student from the University of the East, Manila with 2 years knowledge in different cs subjects. Willing to have an opportunity that will allow me to utilize my problem solving skills and attention to
+						detail to further develop my abilities in the field of computer science.</p>
+				</div>
+				<hr>
+				<h2 class="head-sec"><i class="fas fa-briefcase"></i> Work Experience/Projects </h2>
+				<div class="data-details">
+					<h3>Password Generator & Strength Checker</h3>
+					<ul class="project-details">
+						<li>A prototype application that generates a tons of password for users.</li>
+						<li>It checks the strength of a password.</li>
+						<li>Used: C++.</li>
+					</ul>
+				</div>
+				<hr>
+				<div class="data-details">
+					<h3>Covid-19 Database System</h3>
+					<ul class="project-details">
+						<li>A database system that stores and tracks a covid and non-covid patience.</li>
+						<li>Information management project.</li>
+						<li>Used: SQL server as back-end and Visual studio for front-end webpage.</li>
+					
+					</ul>
+				</div>
+				<hr>
+				<h2 class="head-sec"><i class="fas fa-briefcase"></i> Seminars/Trainings Attended</h2>
+				<div class="data-details">
+					<h3>Robotics Seminar</h3>
+					<span><i class="fas fa-calendar-alt"></i> April 2018</span>
+					<p>Attended at University of the East Manila.<br>
+					<b>2219 Recto Ave, Sampaloc, Manila, 1008 Metro Manila.</b></p>
+				</div>
+				<hr>
+				<div class="data-details">
+					<h3>Youth Leadership Seminar</h3>
+					<span><i class="fas fa-calendar-alt"></i> October 2016</span>
+					<p>Attended at St.Joseph, Kalinangan, Integrated, School.<br>
+					<b>022 Sulucan, Angat, Bulacan.</b></p>
+				</div>
+				<hr>
+				<div class="data-details">
+					<h3>Python:Bootcamp</h3>
+					<span><i class="fas fa-calendar-alt"></i> October 2019</span><br>
+					<b>023 Makati City, Metro Manila.</b></p>
+				</div>
+				<hr>
+				<h2 class="head-sec"><i class="fas fa-user-graduate"></i> Education </h2>
+				<div class="data-details">
+					<h3>College - Bachelor of Science in Computer Science</h3>
+					<span><i class="fas fa-calendar-alt"></i> June 2019 - <span class="green-span">Current</span></span>
+					<p>Currently a 2nd year Collge student at University of the East Manila.<br>
+					<b>2219 Recto Ave, Sampaloc, Manila, 1008 Metro Manila.</b></p>
+				</div>
+				<hr>
+				<div class="data-details">
+					<h3>Senior High School - Science.Technology.Engineering and Mathematics</h3>
+					<span><i class="fas fa-calendar-alt"></i> June 2017 - <span>Mar 2019</span></span>
+					<p>Graduated with honors at University of the East Manila.<br>
+					<b>2219 Recto Ave, Sampaloc, Manila, 1008 Metro Manila.</b></p>
+				</div>
+				<hr>
+				<div class="data-details">
+					<h3>Junior High School</h3>
+					<span><i class="fas fa-calendar-alt"></i>June 2013 - <span>Mar 2017</span></span>
+					<p>Moving up at St.Joseph, Kalinangan, Integrated, School.<br>
+					<b>022 Sulucan, Angat, Bulacan.</b></p>
+				<div>
+		</div>
+<a href="landingpage.html" style="float:right;color:black;font-size:40px;padding-bottom:40px"><u>Go back to Landing Page</u></a>
+</body>
+</html>

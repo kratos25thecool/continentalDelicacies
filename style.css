@@ -1,0 +1,46 @@
+body {
+	background-color: #F4DDAF;
+}
+
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	border: 5px solid black;
+	width: 350px;
+	margin-bottom: 20px; 
+}
+
+td {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+  	vertical-align: middle;
+  	padding: 90px;
+}
+
+p.heading {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 2em;
+	padding: 10px;
+}
+
+td img {
+	width: 400px;
+	height: 320px;
+}
+
+td p {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 2em;
+	padding-top: 8px;
+}
+
+div.continents {
+	background-color: #BAA378;
+    width: fit-content; 
+    height: fit-content; 
+}
+
+footer {
+	background-color: #F4DDAF;
+	color: black;
+}

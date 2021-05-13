@@ -1,0 +1,183 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<title>Image mapping in HTML</title>
+<script language="JavaScript">
+	function writeText(txt,desc){
+		document.getElementById(desc).innerHTML=txt;
+	}
+
+	function dissolveText(txt,desc){
+		document.getElementById(desc).innerHTML=txt;
+	}
+
+	
+</script>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+	body{
+		background:#9CB293;
+		font-family: 'Poppins', sans-serif;
+	}
+
+
+	h1{
+		text-align:center;
+		color:white;
+	}
+
+	.top-content a{
+          display:inline-block;
+          height:100%;
+          line-height:60px;
+          font-size:18px;
+          color:gray;
+          cursor:pointer;
+          transition:color .5s;
+          text-decoration:none;
+          align-items:center;
+          padding-left:30px;
+          padding-right:30px;
+          margin-left:30px;
+          margin-right:30px;
+        }
+
+    .top-content a:hover{
+        color:white;
+        background:black;
+      }
+
+    .top-content{
+        background-color:rgba(243, 243, 243);
+        width:90%;
+        height:60px;
+        display:flex;
+        align-items:center;
+        border-radius:5px;
+        box-shadow: 3px 3px 5px lightgray; 
+        text-align:center;
+        margin:0px 0px 40px 80px;
+      }
+      span{
+      	color:black;
+      }
+      p#desc{
+      	font-size:20px;
+      	color:white;
+      	text-align:center;
+
+      }
+
+      p#desc1{
+      	font-size:20px;
+      	color:white;
+      	text-align:center;
+
+      }
+
+      p#desc2{
+      	font-size:20px;
+      	color:white;
+      	text-align:center;
+
+      }
+
+      p#desc3{
+      	font-size:20px;
+      	color:white;
+      	text-align:center;
+
+      }
+
+      p#desc4{
+      	font-size:20px;
+      	color:white;
+      	text-align:center;
+
+      }
+</style>
+</head>
+<body id="top">
+	
+
+<div class="container">
+	<h1><span>Image Mapping</span> of Countries<hr color="black" width="30%" align="center" size="2"></h1><br>
+
+	<div class="top-content">
+      <center>
+      <a href="#iceland">Iceland</a>
+      <a href="#italy">Italy</a>
+      <a href="#japan">Japan</a>
+      <a href="#philippines">Philippines</a>
+      <a href="#peru">Peru</a>
+      <a href="landingpage.html">Landing Page</a>
+      </center>
+    </div>
+
+	<center>
+	<div id="iceland">
+		<img src="images/iceland .jpg" usemap="#iceland">
+		<map name="iceland">
+			<area shape="rect" coords="219,258 ,270 ,315" href="Iceland.html" onMouseOver="writeText('Click this pin mark to view the beautiful places in Iceland','desc');" onMouseOut="dissolveText('','desc');" />
+		</map>
+	<p id="desc"></p>
+	</div>	
+	<a href="#top" style="text-decoration:none;font-size:20px;float:left;margin-left:100px;color:white">Go Top</a>
+	<br><br>
+
+	<div id="italy">
+	<hr color="black" width="90%" align="center" size="5"><br>
+		<img src="images/Italy.jpg"  usemap="#italy">
+		<map name="italy">
+			<area shape="circle" coords="534,545,19" href="Italy.html" onMouseOver="writeText('Click this pin mark to view the beautiful places in Italy','desc1');" onMouseOut="dissolveText('','desc1');" />
+		</map>
+	<p id="desc1"></p>
+	</div>
+	<a href="#top" style="text-decoration:none;font-size:20px;float:left;margin-left:100px;color:white">Go Top</a>
+	<br><br>
+
+	<div id="japan">
+	<hr color="black" width="90%" align="center" size="5"><br>
+	
+		<img src="images/japan .jpg" alt="Japan Mapping" usemap="#japan">
+		<map name="japan">
+    		<area target="" alt="Japan" title="Japan" href="Japan.html" coords="94,224,77,234,75,246,90,265,94,271,106,257,112,244,108,232" shape="poly" onMouseOver="writeText('Click this pin mark to view the beautiful places in Japan','desc2');" onMouseOut="dissolveText('','desc2');">
+		</map>
+	<p id="desc2"></p>
+	</div>
+	<a href="#top" style="text-decoration:none;font-size:20px;float:left;margin-left:100px;color:white">Go Top</a>
+	<br><br>
+
+	<div id="philippines">
+	<hr color="black" width="90%" align="center" size="5"><br>
+		<img src="images/philippines.jpg" alt="Beautiful places in the Philippines" title="Philippines" usemap="#philippines">
+		<map name="philippines">
+			<area shape="rect" coords="538,452,581,510" href="Philippines.html" onMouseOver="writeText('Click this pin mark to view the beautiful places in the Philippines','desc3');" onMouseOut="dissolveText('','desc3');"/>
+		</map>
+	<p id="desc3"></p>
+	</div>
+	<a href="#top" style="text-decoration:none;font-size:20px;float:left;margin-left:100px;color:white">Go Top</a>
+	<br><br>
+
+	<div id="peru">
+	<hr color="black" width="90%" align="center" size="5"><br>
+		<img src="images/Peru.jpg"  title="Beautiful Places in Peru" usemap="#peru">
+		<map name="peru">
+			<area shape="circle" coords="198,449,23" href="Peru.html" onMouseOver="writeText('Click this pin mark to view the beautiful places in Peru','desc4');" onMouseOut="dissolveText('','desc4');"/>
+		</map>
+	<p id="desc4"></p>
+	</div>
+	<a href="#top" style="text-decoration:none;font-size:20px;float:left;margin-left:100px;color:white">Go Top</a>
+	<br><br>
+</center>
+</div>
+</body>
+</html>

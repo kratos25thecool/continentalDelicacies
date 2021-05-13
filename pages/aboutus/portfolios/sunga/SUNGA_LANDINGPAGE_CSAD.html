@@ -1,0 +1,148 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Landing Page</title>
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+    .container{
+      height: 100vh;
+      width: 100%;
+      background-image: url(media/image.png);
+      background-size: cover;
+      background-position: center;
+      position:relative;
+
+    }
+    .navbar{
+      width: 41%;
+      margin: auto;
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      float: center;
+    }
+    .navbar ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+    }
+    .navbar ul li {
+      list-style: none;
+      display: inline-block;
+      margin:0 15px;
+    }
+    .navbar ul li a{
+      text-decoration: none;
+      color: #5f5f5f;
+      font-size:20px;
+      padding: 14px 16px;
+      display: flex;
+    }
+    .navbar ul li a:hover{
+      background-color: pink;
+
+    }
+    #about:hover{
+      background-color: #89CFF0;
+    }
+    #Resume:hover{
+      background-color: #89CFF0;
+    }
+    .content{
+      width:100%;
+      position:absolute;
+      top:30%;
+    }
+    .left-col{
+      margin-left: 6%;wedsqafeeawwsqaedcfvwqesaxdxctfrcasddgfdsxgxgzxqasdzxcq2qwaszdxweqaewe23qe  azasqw    1q`1qqty6gfhewrdsfweqsadzxazQWEASDZX
+    }
+    .left-col h1{
+      font-size:90px;
+      color: #fff;
+      line-height: 110px;
+      float: left;
+    }
+    .left-col img{
+      float:left;
+      margin-left: 2.5%;
+    }
+    .left-col p{
+      font-size: 10px;
+      color: #5f5f5f;
+      font-weight: 400;
+      margin-left: 27%;
+    }
+    #icon{
+      width: 80px;
+      cursor: pointer;
+    }
+    .right-col {
+      float: right;
+      margin-right: 6%;
+    }
+    .right-col video{
+
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   
+<div class="container" >
+  <div class="navbar">
+    <ul>
+      <li><a href="SUNGA_BIO_CSAD.html" id="about">About Me</a></li>
+      <li><a href="SUNGA_RESUME_CSAD.html" id="Resume">Resume</a></li>
+      <li><a href="SUNGA_MYBEAT_CSAD.html" id="beats">My Beats</a></li>
+      <li><a href="SUNGA_MYVIDEO_CSAD.html" id="video">My Video</a></li>
+      <li><a href="SUNGA_PHOTOGALLERY_CSAD.html" id="about">Photo Gallery</a></li>
+      <li><a href="Asia.html" id="beats">Image Mapping</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="left-col">
+      <h1>Sample<br>Sound</h1>
+      <br><br><br><br><p>Click to Play</p>
+      <img src="media/play.png" id="icon">
+      
+    </div>
+    <div class="right-col">
+      <video width="400" controls>
+        <source src="media/Pexels Videos 1128104.mp4" type="video/mp4">
+      </video>
+      
+    </div>
+  </div>
+</div>
+
+
+
+  <audio  id="mySong">
+    <source src="media/bensound-ukulele.mp3" type="audio/mp3">
+  </audio>
+<script>
+  var mySong = document.getElementById('mySong');
+  var icon = document.getElementById('icon');
+  icon.onclick =function(){
+    if(mySong.paused){
+        mySong.play();
+        icon.src = "media/pause.png"
+    }else{
+        mySong.pause();
+        icon.src = "media/play.png"
+    }
+  }
+
+</script>
+
+
+</body>
+</html>

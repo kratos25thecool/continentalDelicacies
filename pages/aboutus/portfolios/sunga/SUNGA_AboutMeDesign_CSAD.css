@@ -1,0 +1,26 @@
+.paper {
+	width: 21cm;
+  	min-height: 29.7cm;
+ 	padding: 2cm;
+  	margin: 1cm auto;
+  	border: 1px #D3D3D3 solid;
+  	border-radius: 5px;
+  	background: white;
+  	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+body{
+	background-color: #203354; 
+	color: black;
+}
+h1{
+	text-align: center;
+	font-family: 'Bitter', serif;
+}
+h2 {
+	text-align: center;
+	font-family: 'Bitter', serif;
+}
+blockquote{
+	text-align: justify; 
+	font-family: 'Raleway', sans-serif; 
+}

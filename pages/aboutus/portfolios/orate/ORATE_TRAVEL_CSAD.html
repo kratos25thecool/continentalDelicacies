@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel List</title>
+    <link rel="stylesheet" href="ORATE_TRAVELdesign_CSAD.css">
+
+    <script language="JavaScript">
+        function writeText(des, txt) {
+            document.getElementById(des).innerHTML=txt
+        }
+        function dissolveText(des) {
+            document.getElementById(des).innerHTML=""
+        }
+
+    </script>
+</head>
+<body>
+    <!-- ORATE, ANGELO REGIS C. -->
+    <!-- MARCH 30, 2021 -->
+
+    <div class="header">
+
+        <hr class="rdSide">
+
+        <div class="title">
+            <h1>Travel List</h1>
+        </div>
+
+        <hr class="rdSide">
+
+    </div>
+
+    <div class="card">
+        <div class="tCard">
+            <h2>Moon & Mt. Everest</h2>
+        </div>
+        <div class="pCard">
+            <img src="IMAGES\mnNmt.jpg" alt="An image of the moon behind Mt. Everest" usemap="#mnNmt">
+            <map name="mnNmt">
+                
+                <area shape="poly" coords=" 0,480,
+                                            70,460,
+                                            140,330,
+                                            175,330,
+                                            210,400,
+                                            380,520,
+                                            500,520,
+                                            500,629,
+                                            0,629" 
+                        href="2MtEverest.html" target="winPlace" alt=""
+                        onmouseover="writeText('desc1', 
+                                'The highest mountain on Earth, located in Nepal. A whole lotta training and money is required to even <em>start</em> climbing it.  A harsh environment, loads of people have died here due to cold and supply issues. Having said that though, a girl with no legs managed to climb it. Pretty inspiring.')"
+                        onmouseout="dissolveText('desc1')">
+                <area shape="circle" coords="250, 230, 182" 
+                        href="1Moon.html" target="winPlace" alt=""
+                        onmouseover="writeText('desc1', 
+                                'A heavenly body. The one and only natural satellite of Planet Earth. At least 362,600KM away, you literally need a spaceship to get here. It\'s got a 100% survivability rate though, noones ever died on the moon so it\'s statistically safe.')"
+                        onmouseout="dissolveText('desc1')">
+            </map>
+        </div>
+        <div class="iCard">
+            <p>These are the most ambitious places I honestly want to go to. 
+                I'm aware that I will most likely not make the trip, but a man can dream yeah?</p>
+            <p class="desc" id="desc1"></p>
+        </div>
+    </div>
+
+    <hr width="100%">
+
+    <div class="card">
+        <div class="tCard">
+            <h2>Burj Khalifa</h2>
+        </div>
+        <div class="pCard">
+            <img src="IMAGES\bkhalifa.jpg" alt="An image of my house" usemap="#bkhalifa">
+            <map name="bkhalifa">
+
+                <area shape="rect" coords="230, 20, 375, 600" 
+                        href="3Khalifa.html" target="winPlace" alt=""
+                        onmouseover="writeText('desc2', 
+                                'Burj Khalifa is tallest skyscraper on Earth, located in Dubai. The decision to build Burj Khalifa was reportedly based on the government\'s decision to diversify from an oil-based economy to one that is service and tourism based.')"
+                        onmouseout="dissolveText('desc2')">
+                <area shape="rect" coords="2, 445, 598, 900" 
+                        href="3Khalifa.html" target="winPlace" alt=""
+                        onmouseover="writeText('desc2', 
+                                'Dubai, the city born from oil now thrives from massive tourism. Now that the pandemic hit, I wonder how they doin. Sure hope the housing prices weren\'t affected. I think I got some change lying around...')"
+                        onmouseout="dissolveText('desc2')">
+
+            </map>
+
+        </div>
+        <div class="iCard">
+            <p>A very expensive building in a very expensive city. I like tall places, maybe I'll buy a penthouse nearby.
+                I'd spend my days gambling, living like a king with my pet tiger. Occasionally riding 'round the city in my 
+                gold-plated, diamond-encrusted, 20-seater Jeepney-mousine.</p>
+            <p class="desc" id="desc2"></p>
+        </div>
+    </div>
+
+    <hr width="100%">
+    <div class="card">
+        <div class="tCard">
+            <h2>Silicon Valley</h2>
+        </div>
+        <div class="pCard">
+            <img src="IMAGES\svalley.jpg" alt="An image of my house" usemap="#svalley">
+            <map name="svalley">
+
+                <area shape="circle" coords="345, 240, 230" 
+                        href="4SiliconValley.html" target="winPlace" alt=""
+                        onmouseover="writeText('desc3', 
+                                'Apple park, the headquarters of Apple Inc. at Silicon Valley. This is where all that iMagic happens. You get to pay more for more? Simply means people here get to earn more!')"
+                        onmouseout="dissolveText('desc3')">
+            </map>
+
+        </div>
+        <div class="iCard">
+            <p>Silicon valley, located in North California.
+                It's where all the fancy-schmancy 'techies' are. Innovating technology as we know it, 
+                this place is known as the fore-front of technological advances. I wouldn't just want
+                to visit, I wanna work here. Maybe develop some sophisticated taste while I'm there,
+                like that scarf+sweater+shorts fashion. Very innovative.
+            </p>
+            <p class="desc" id="desc3"></p>
+        </div>
+    </div>
+
+    <hr width="100%">
+    <div class="card">
+        <div class="tCard">
+            <h2>Catacombs of Paris</h2>
+        </div>
+        <div class="pCard">
+            <img src="IMAGES\pcatacombs.jpg" alt="An image of my house" usemap="#pcatacombs">
+            <map name="pcatacombs">
+
+                <area shape="rect" coords="0, 0, 669, 374" 
+                        href="5Catacombs.html" target="winPlace" alt=""
+                        onmouseover="writeText('desc4', 
+                                'I like dungeons!')"
+                        onmouseout="dissolveText('desc4')">
+            </map>
+
+        </div>
+        <div class="iCard">
+            <p>Underground burials of more than 6 million ancient parisians. 
+                It stretches out for miles underneath the city. Previously forgotten,
+                it was only rediscovered on 1774 after some unfortunate accident.
+            </p>
+
+            <p class="desc" id="desc4"></p>
+        </div>
+    </div>
+
+
+</body>
+</html>

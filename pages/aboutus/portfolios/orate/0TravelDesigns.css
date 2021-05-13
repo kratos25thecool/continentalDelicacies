@@ -1,0 +1,114 @@
+body {
+	background-color: #2E4057;
+}
+
+.tCard {
+    background-color: #083D77;
+    width: 100%;
+    height: 20%;
+
+    border-radius: 5em 5em 0em 0em;
+    border-bottom: 1em dashed white;
+}
+h1 {
+    color: white;
+
+    font-family: "Arial Black";
+    font-size: 7em;
+
+    text-align: center;
+}
+
+.photos {
+    width: 100%;
+    height: 40%;
+}
+img {
+    float: left;
+    padding: 0px;
+    margin: 0%;
+
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.disc {
+    background-color: #30bee6;
+    width: 100%;
+    height: auto;
+
+    float: left;
+}
+h2 {
+    color: white;
+    background-color: #083D77;
+    border-bottom: 10px dashed white;
+
+    margin: 0%;
+    padding: 1%;
+
+    font-family: "Helvetica";
+    font-size: 4em;
+
+    text-align: center;
+}
+hr {
+    margin: 0%;
+    padding: 0%;
+}
+
+p {
+    color: black;
+
+    font-family: monospace;
+    font-size: 2em;
+
+    text-align: justify;
+    text-indent: 5%;
+
+    margin: 1% 15%;
+}
+
+.how {
+    background-color: #D3FFE9;
+    width: 100%;
+    height: auto;
+
+    float: left;
+}
+#howImg {
+    float: left;
+    padding: 0px;
+    margin: 1%;
+
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    object-fit: contain;
+}
+
+.other {
+    background-color: #D4F2D2;
+    width: 100%;
+    height: auto;
+
+    float: left;
+
+    border-radius: 0em 0em 5em 5em;
+}
+
+.tags {
+    width: 25%;
+    float: left;
+    margin-bottom: 2%;
+}
+h3 {
+    text-align: center;
+    color: red;
+
+    font-family: monospace;
+    font-size: 2em;
+
+    margin-top: 0%;
+}

@@ -1,0 +1,33 @@
+body {
+    background-image: url('assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+div.contents {
+	background-color: #BAA378;
+    width: fit-content; 
+    height: fit-content; 
+    padding: 30px;
+    margin: 15px;
+}
+
+ul.bottomBar {
+	list-style-type: none;
+    padding: 1.5em;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 2em;
+}
+
+ul.bottomBar > li {
+	background-color: #F4DDAF;
+	padding: 1em;
+}
+
+footer {
+	background-color: #F4DDAF;
+	color: black;
+}
+

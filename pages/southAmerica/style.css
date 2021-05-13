@@ -1,0 +1,17 @@
+body {
+    background-color: #F4DDAF;
+}
+
+div.contents {
+	background-color: #BAA378;
+    width: fit-content; 
+    height: fit-content; 
+    padding: 30px;
+    margin: 15px;
+}
+
+footer {
+	background-color: #F4DDAF;
+	color: black;
+}
+

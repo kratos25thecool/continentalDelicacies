@@ -1,0 +1,190 @@
+body {
+    background-color: #712F79;
+}
+
+.header {
+    background-color: #102641;
+    height: 20%;
+
+    padding: 0px;
+    margin: 0px;
+
+    border-radius: 10vw 10vw 0vw 0vw;
+}
+
+#blankHR {
+    height: 0px;
+    border-style: none;
+    border-width: 0px;
+    color: inherit;
+    
+}
+
+h1 {
+    font-family: "Arial Black";
+    font-size: 5vw;
+    color: limegreen;
+    
+    text-align: center;
+    letter-spacing: 2px;
+    
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px white;
+
+    padding: 0px;
+    margin: 0px;
+} 
+
+#headerTrim {
+    width: 50%;
+    height: 8px;
+
+    background-color: limegreen;
+    /* margin-bottom: 30px; */
+
+    border-radius: 4px;
+    box-shadow: 1px 3px 2px white;
+}
+
+
+
+.genre {
+    width: 98%;
+    background-color: black;
+
+    padding: 1%;
+    margin: 0px;
+
+}
+h2 {
+    font-family: "Arial";
+    font-size: 3vw;
+    color: white;
+    
+    text-align: center;
+    letter-spacing: 2px;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.g1Box {
+    overflow: hidden;
+    background-color: rosybrown;
+}
+.g2Box {
+    overflow: hidden;
+    background-color: #ffd1dc;
+}
+.g3Box {
+    overflow: hidden;
+    background-color: #77dd77;
+}
+
+.gdesc {
+    width: 80%;
+    display: block; 
+    margin: 0px auto;
+}
+.gdesc > p {
+    font-family: "Helvetica";
+    font-size: 1.5vw;
+    color: black;
+
+    text-indent: 5%;
+    text-align: justify;
+    
+    line-height: 2em;
+    border-left: 4px solid black;
+
+    padding-left: 2%;
+}
+
+.card {
+    width: 48%;
+
+    padding: 1%;
+
+    float: left;
+}
+h3 {
+    font-family: "Helvetica";
+    font-size: 1.5vw;
+    color: black;
+    
+    letter-spacing: 1px;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-family: "Georgia";
+    font-size: 1.25vw;
+    color: black;
+
+    text-align: justify;
+    
+    line-height: 2em;
+}
+
+
+img {
+    display: block; 
+    margin: 0px auto;
+}
+audio {
+    display: block; 
+    margin: 0px auto;
+}
+.song1 {
+    background-color: #976391;
+    width: 47.5%;
+    height: 35%;
+
+    margin: 0px;
+    padding: 1%;
+
+    float: left;
+
+    border-radius: 4vw 0vw 0vw 4vw;
+    border: 3px solid black;
+}
+.song2 {
+    background-color: #48639C;
+    width: 47.5%;
+    height: 35%;
+
+    margin: 0px;
+    padding: 1%;
+
+    float: left;
+
+    border-radius: 4vw 0vw 0vw 4vw;
+    border: 3px solid black;
+}
+.song3 {
+    background-color: #5F3E8B;
+    width: 47.5%;
+    height: 35%;
+
+    margin: 0px;
+    padding: 1%;
+
+    float: left;
+
+    border-radius: 4vw 0vw 0vw 4vw;
+    border: 3px solid black;
+}
+
+.footer {
+    background-color: #102641;
+    height: 20%;
+
+    padding: 0px;
+    margin: -.5% 0% 0% 0%;
+
+    border-radius: 0vw 0vw 10vw 10vw;
+}

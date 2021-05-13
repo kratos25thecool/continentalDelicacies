@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHOTO GALLERY</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background:#262626;
+  }
+
+  .container{
+    width: 1280px; 
+    background:#fff;
+    margin:10px auto 0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+  }
+
+  .container .box{
+    position:relative;
+    width:300px;
+    height:300px;
+    margin:50px;
+    box-sizing:border-box;
+    display:inline-block;
+  }
+  .container .box .imgbox{
+    position:relative;
+    overflow:hidden;
+    height:100%;
+    width:100%;
+    margin-left:50px;
+  }
+
+  .container .box .imgbox img{
+    max-width:90%;
+    max-height:90%;
+    transition:transform 2s;
+    margin-left:25px;
+  }
+
+  .container .box:hover .imgbox img{
+    transform:scale(1.2);
+  }
+  .container .box .details{
+    position:absolute;
+    top:80px;
+    left:80px;
+    right:80px;
+    bottom:80px;
+    background:rgba(0,0,0,.3);
+    transform:scaleY(0);
+    transition: transform .5s;
+    align-items:center;
+  }
+  .container .box:hover .details{
+    transform:scaleY(1);
+
+  }
+  .container .box .details .content{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:25px;
+    color:#fff;
+  }
+
+  .container .box .details .content h2{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:white;
+    text-align:center;
+  }
+  .container .heading{
+    width: 90%;
+    padding-bottom: 10px;
+    padding-left:50px;
+  }
+  .container .heading h3{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+  }
+
+  .container .heading h3 span{
+    font-weight: 100;
+  }
+
+
+
+
+  @media only screen and (max-width: 769px){
+      .container .box{
+     flex-direction: column;
+    }
+
+  .container .box .dream{
+    width: 100%;
+  }
+
+
+
+
+
+  }
+
+  @media only screen and (max-width: 643px){
+  .container .heading{
+    width: 100%;
+  }
+  .container .heading h3{
+    font-size: 1em;
+
+  }
+
+  }
+.top-content a{
+          display:inline-block;
+          height:100%;
+          line-height:60px;
+          font-size:18px;
+          color:gray;
+          cursor:pointer;
+          transition:color .5s;
+          text-decoration:none;
+          align-items:center;
+          padding: 0px 87.5px;
+        }
+
+    .top-content a:hover{
+        color:white;
+        background:black;
+      }
+
+    .top-content{
+        background-color:rgba(243, 243, 243);
+        width:90%;
+        height:60px;
+        display:flex;
+        align-items:center;
+        border-radius:5px;
+        box-shadow: 3px 3px 5px lightgray; 
+        text-align:center;
+        margin:0px 0px 40px 50px;
+      }
+
+      .fam2 a{
+          display:inline-block;
+          height:100%;
+          line-height:60px;
+          font-size:18px;
+          color:gray;
+          cursor:pointer;
+          transition:color .5s;
+          text-decoration:none;
+          align-items:center;
+          padding: 0px 87.5px;
+        }
+
+     .fam2 a:hover{
+          color:white;
+          background:black
+        }
+
+
+  </style>
+</head>
+<body id="top">
+  <div class="container">
+    <div class="heading">
+      <center><h3>Photo <span>Gallery</span></h3></center>
+    </div>
+
+    <div class="top-content">
+      <center>
+      <a href="#family">FAMILY</a>
+      <a href="#friends">FRIENDS</a>
+      <a href="#me">ME</a>
+      <a href="#poster">POSTER</a>
+      <a href="MyFilm.html" target="_parent">FILM</a>
+      </center>
+    </div>
+
+    <div class="box" id="family" style="margin-left:5px;">
+      <div class="imgbox"style="width:400px;margin-left:0px">
+           <a href="images/fam1.jpg" target=_parent class="fam2"style="color:gray">
+            <img src="images/fam1.jpg"style="border-width:5px;border-style:inset;">
+          </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FAMILY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox"style="width:400px">
+        <center>
+        <a href="images/fam2.jpg" target=_parent class="fam2"style="color:gray">
+        <img src="images/fam2.jpg"style="border-width:5px;border-style:inset;">
+        </a>
+      </center>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FAMILY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox"style="width:400px;">
+        <a href="images/fam3.jpg" target=_parent class="fam2"style="color:gray">
+        <img src="images/fam3.jpg"style="border-width:5px;border-style:inset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FAMILY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/fam4.jpg" target=_parent class="fam2" style="color:gray">
+        <img src="images/fam4.jpg"style="border-width:5px;border-style:inset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FAMILY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/fam5.jpg" target=_parent class="fam2"style="color:gray">
+        <img src="images/fam5.jpg"style="border-width:5px;border-style:inset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FAMILY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/fam6.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/fam6.jpg"style="border-width:5px;border-style:inset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FAMILY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box"style="margin-left:400px; width:1000px;">
+      <div class="imgbox">
+        <a href="images/fam7.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/fam7.jpg"style="border-width:5px;border-style:inset;">
+        </a>
+      </div>
+      <div class="details"style="width:200px;">
+        <div class="content">
+          <h2>FAMILY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+    <a href="#top"style="font-size:30px;margin-left:70px;color:gray;text-decoration:none">Go Top</a>
+
+  <div>
+    <hr color="black" width="90%" align="center" size="5">
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/friends1.jpg" target=_parent class="fam2"style="color:gray">
+           <img src="images/friends1.jpg"style="border-width:5px;border-style:ridge;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FRIENDS PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/friends2.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/friends2.jpg"style="border-width:5px;border-style:ridge;"> 
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FRIENDS PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="friends">
+      <div class="imgbox">
+        <a href="images/friends3.jpg" target=_parent class="fam2"style="color:gray">
+         <img src="images/friends3.jpg"style="border-width:5px;border-style:ridge;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FRIENDS PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/friends4.jpg" target=_parent class="fam2"style="color:gray">
+            <img src="images/friends4.jpg"style="border-width:5px;border-style:ridge;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FRIENDS PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/friends5.jpg" target=_parent class="fam2"style="color:gray">
+             <img src="images/friends5.jpg"style="border-width:5px;border-style:ridge;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FRIENDS PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/friends6.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/friends6.jpg"style="border-width:5px;border-style:ridge;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FRIENDS PICTURE</h2>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="box"style="margin-left:470px;">
+      <div class="imgbox">
+        <a href="images/friends7.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/friends7.jpg"style="border-width:5px;border-style:ridge;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>FRIENDS PICTURE</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+   <a href="#top"style="font-size:30px;margin-left:80px;color:gray;text-decoration:none;">Go Top</a>
+
+  <div>
+    <hr color="black" width="90%" align="center" size="5">
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/me2.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/me2.jpg"style="border-width:5px;border-style:outset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>MY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="me">
+      <div class="imgbox">
+        <a href="images/me7.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/me7.jpg"style="border-width:5px;border-style:outset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>MY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/me4.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/me4.jpg"style="border-width:5px;border-style:outset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>MY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/me5.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/me5.jpg"style="border-width:5px;border-style:outset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>MY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/me6.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/me6.jpg"style="border-width:5px;border-style:outset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>MY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <a href="images/me7.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/me7.jpg"style="border-width:5px;border-style:outset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>MY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" style="margin-left:460px;">
+      <div class="imgbox">
+        <a href="images/me8.jpg" target=_parent class="fam2"style="color:gray">
+          <img src="images/me8.jpg"style="border-width:5px;border-style:outset;">
+        </a>
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>MY PICTURE</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+   <a href="#top"style="font-size:30px;margin-left:80px;color:gray;text-decoration:none">Go Top</a>
+
+  <div>
+    <hr color="black" width="90%" align="center" size="5">
+    <div class="box" id="poster">
+      <div class="imgbox">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71wuq0YV8KL._SL1500_.jpg"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://cf.shopee.ph/file/6f52953cc16e5913a2648a003b55a7ba" style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://breedinglikelarva.files.wordpress.com/2018/07/poster_associate-768x768-1-e1560812077685.jpg?w=739"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://static.stereogum.com/uploads/2021/03/unnamed-61-1616096526.png"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://i.etsystatic.com/26765651/d/il/ee682b/2749851484/il_340x270.2749851484_isic.jpg?version=0"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://upload.wikimedia.org/wikipedia/en/9/96/OneRepublic_-_Native.png"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://i.pinimg.com/originals/1d/a2/82/1da282acd29e2e60a9c661e5fdc432cb.jpg"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://bandwagon-gig-finder.s3.amazonaws.com/editorials/uploads/pictures/18422/content_Limasawa_Street_3kx3k_JPG.jpg"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgbox">
+        <img src="https://i.pinimg.com/originals/a1/4d/c3/a14dc337d363549d8daad22c3c3ba245.jpg"style="border-width:5px;border-style:dotted solid double dashed;">
+      </div>
+      <div class="details">
+        <div class="content">
+          <h2>Poster Album</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+   <a href="#top"style="font-size:30px;margin-left:80px;color:gray;text-decoration:none">Go Top</a>
+</div>
+
+</body>
+</html>

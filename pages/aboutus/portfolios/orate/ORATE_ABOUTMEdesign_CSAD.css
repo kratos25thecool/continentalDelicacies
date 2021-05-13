@@ -1,0 +1,127 @@
+body {
+		background-color:#102641
+}
+
+#cardTitle {
+		background-color:#976391;
+}
+
+#card1 {
+		background-color: #712F79;
+}
+
+#card2 {
+		background-color: #5F3E8B;
+}
+
+#card3 {
+		background-color: #4C4C9D;
+}
+#cardEnd {
+		background-color: #48639C;
+}
+
+h1 {
+		font-family: "Arial Black";
+		font-size: 6em;
+		color: white;
+		
+		text-align: center;
+		letter-spacing: 2px;
+		
+		text-transform: uppercase;
+		text-shadow: 4px 6px magenta;
+} 
+
+h2 {
+		font-family: Helvetica;
+		font-size: 2em;
+		color: white;
+		
+		text-align: left;
+		text-indent: 10%;
+		letter-spacing: 2px;
+		
+		text-transform: capitalize;
+}
+
+blockquote {
+		font-family: Tahoma;
+		font-size: 1.5em;
+		color: white;
+		
+		text-align: justify;
+		text-indent: 3em;
+		
+		letter-spacing: 1px;
+		word-spacing: .3em;
+		line-height: 1.5em;
+}
+
+#quoteBox {
+		width: 75%;
+}
+
+sup {
+	font-family: monospace;
+	color: lime;
+	font-size: .8em
+}
+
+#credits {
+		font-family: monospace;
+		font-size: 1.2em;
+		color: white;
+	
+		text-align: left;
+		width: 30%;
+}
+
+ul {
+	list-style-type: none;
+	list-style-position:inside;
+	margin:0;
+	padding:0;
+}
+li {
+	font-family: Helvetica;
+	font-size: 2em;
+	color: white;
+	
+	
+	text-align: center;
+	letter-spacing: 2px;
+		
+	width: 33.33%;
+	margin: 0%;
+	margin-top: -.5%;
+
+	float: left;
+	
+	text-indent: 0%
+}
+#l1 {
+	background-color: #712F79;
+}
+#l2 {
+	background-color: #5F3E8B;
+}
+#l3 {
+	background-color: #4C4C9D;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	float: left;
+	margin: 0%;
+	padding: 0%;
+
+	width: 33.33%;
+	height: 100%;
+    object-fit: cover;
+}

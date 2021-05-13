@@ -1,0 +1,275 @@
+.nav-item {
+    font-family: 'Open Sans', serif;
+    border-bottom: 3px solid #ccc;
+}
+.nav-item:hover {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+body {
+    background-color: #BAA378;
+}
+
+.photos {
+    width: 100%;
+    height: 40%;
+}
+.photos img {
+    float: left;
+    padding: 0%;
+
+    width: 33.33%;
+    height: 100%;
+    object-fit: cover;
+    border-top: 6px solid #01275f;
+    border-bottom: 6px solid #01275f;
+
+}
+
+.head {
+    margin: 0%;
+}
+.head h1 {
+    font-family: Eczar, Arial, sans-serif;
+    font-size: 5vw;
+
+    color: white;
+}
+.head .aFood {
+    text-align: center;
+    background-color: #083d77;
+    padding: 1%;
+    
+    width: 80%;
+    float: left;
+}
+.head .aFood:hover {
+    background-color: #083e77dd;
+}
+.head .arrowLeft {
+    background-color: #083d77;
+    padding: 1%;
+    padding-left: 5%;
+
+    width: 10%;
+    float: left;
+}
+.head .arrowLeft:hover {
+    background-color: #083e77dd;
+    padding: 1%;
+    padding-left: 2%;
+    
+    width: 10%;
+    float: left;
+}
+.head .arrowRight {
+    background-color: #083d77;
+    padding: 1%;
+    padding-right: 5%;
+
+    width: 10%;
+    float: left;
+}
+.head .arrowRight:hover {
+    background-color: #083e77dd;
+    padding: 1%;
+    padding-right: 2%;
+}
+
+.header{
+    background-color: #083d77;
+
+    margin: 1%;
+    margin-bottom: 0%;
+    padding: 1%;
+    padding-bottom: 0%;
+    
+}
+.header h1 {
+    font-family: Eczar, Arial, sans-serif;
+    font-size: 5vw;
+
+    color: white;
+
+    text-align: center;
+}
+
+.int {
+    margin-bottom: auto;
+}
+.introText {
+    width: auto;
+    height: auto;
+    
+    margin: 1%;
+    margin-top: 0%;
+    padding: 1% 25% 2% 25%;
+
+    background-color: #F4DDAF;
+    
+    float: left;
+}
+.introText p {
+    font-family: Oxygen, sans-serif;
+    font-size: 1.2vw;
+
+    text-indent: 8%;
+    text-align: justify;
+    
+    line-height: 1.5em;
+
+    margin-top: 1%;
+}
+.introText #auth {
+    text-align: right;
+    margin-top: 0%;
+}
+
+
+
+.ingredientsBox {
+    width: 34%;
+    /* CHANGE HEIGHT HERE -------------------------------*/
+    height: 100%;
+    float: left;
+
+    margin: 0% 0% 1% 1%;
+    padding: 1%;
+
+    background-color: #F4DDAF;
+}
+.ingredientsBox h2 {
+    font-family: 'Eczar', sans-serif;
+    font-size: 3vw;
+
+    color: crimson;
+    text-align: center;
+}
+.ingredientsBox ul {
+    list-style: disc outside;
+    margin: 2%;
+    margin-left: 10%;
+}
+.ingredientsBox ul li {
+    font-family: Oxygen, sans-serif;
+    font-size: 1.25vw;
+
+    color: black;
+
+    line-height: 1.35em;
+    margin-bottom: 1vw;
+
+    text-align: justify;
+}
+
+.procedureBox {
+    width: 64%;
+    /* CHANGE HEIGHT HERE -------------------------------*/
+    height: 100%;
+    float: left;
+
+    margin: 0% 1% 1% 0%;
+    padding: 1%;
+
+    background-color: #F4DDAF;
+
+    border-left: .6vw dashed brown;
+}
+.procedureBox h2 {
+    font-family: 'Eczar', sans-serif;
+    font-size: 3vw;
+
+    color: crimson;
+    text-align: center;
+}
+.procedureBox ol {
+    list-style: decimal outside;
+    margin: 2%;
+    margin-left: 5%;
+}
+.procedureBox ol li {
+    font-family: Oxygen, sans-serif;
+    font-size: 1.25vw;
+
+    color: black;
+
+    line-height: 1em;
+    margin-bottom: 2vw;
+
+    text-align: justify;
+}
+.procedureBox ol li ul {
+    list-style: disc outside;
+    margin: 2%;
+    margin-left: 10%;
+}
+.procedureBox ol li ul li {
+    font-family: Oxygen, sans-serif;
+    font-size: 1.25vw;
+
+    color: black;
+
+    line-height: 1em;
+    margin-bottom: .2vw;
+
+    text-align: justify;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 2% 0% 0% 0%;
+    padding: 0.5em 10px;
+    quotes: "“" "‘" "”" "’" ;
+}
+blockquote:before, blockquote:after{
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25vw;
+}
+blockquote footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25vw;
+    font-weight: bold;
+
+    color: black;
+
+    line-height: 1em;
+    margin-bottom: .2vw;
+
+    text-align: right;
+}
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25vw;
+    font-weight: bold;
+
+    color: black;
+
+    line-height: 1em;
+    margin-bottom: .2vw;
+
+    text-align: right;
+}
+.qt {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 0%;
+    padding: 0.5em 10px;
+    quotes: "“" "‘" "”" "’" ;
+}
+
+#procedureL {
+    height: 160%;
+}   
+    

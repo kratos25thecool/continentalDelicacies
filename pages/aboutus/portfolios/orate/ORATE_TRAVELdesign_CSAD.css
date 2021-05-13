@@ -1,0 +1,106 @@
+body {
+    background-color: lightblue;
+}
+
+.header {
+    background-color: slategray;
+
+    height: 60%;
+    width: 100%;
+
+    padding: .5% 0%;
+}
+.header ul {
+
+    float: left;
+
+    width: 40%;
+    height: 86%;
+
+    margin-top: 0%;
+}
+
+
+.header .title {
+    float: left;
+
+    padding-bottom: 0%;
+    border-bottom: 2.5vw dashed white;
+
+    height: 40%;
+    width: 97%;
+
+    margin: 0% 2%;
+    margin-bottom: 12.25%;
+}
+.header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+    color: yellow;
+    font-size: 800%;
+
+}
+
+.rdSide {
+    height: 5%;
+    width: 100%;
+
+    margin: 0%;
+
+    background-color: white;
+
+    float: left;
+}
+
+
+
+
+.tCard {
+    background-color: yellow;
+
+    height: 10%;
+    width: 100%;
+
+    border-bottom: .5vw solid brown;
+}
+.tCard h2 {
+    font-family: "Arial Black";
+    font-size: 400%;
+
+    text-align: center;
+
+    margin: 1%;
+}
+
+.pCard {
+    background-color: beige;
+    width: 40%;
+    height: auto;
+    border-right: .5vw solid brown;
+    border-bottom: .5vw solid brown;
+    float: left;
+}
+.pCard img {
+    display: block;
+    margin: 0px auto;
+}
+
+.iCard {
+    margin: 3%;
+    width: 40%;
+
+    float: left;
+}
+.iCard p {
+    margin-top: -1%;
+    font-family: monospace;
+    text-align: justify;
+    text-indent: 10%;
+
+    letter-spacing: 1px;
+
+    color: black;
+    font-size: 200%;
+
+}
